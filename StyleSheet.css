@@ -1,0 +1,281 @@
+button{
+            width:50px;
+            height:50px;
+            border-radius:50px;
+			border: solid;
+            text-align:center;
+            background-color:red;
+			font-size:30px;
+            font-family:Impact,fantasy;	
+			visibility: hidden;
+			position: absolute;
+        }
+			
+			button:hover {
+			cursor: pointer; cursor: hand;
+		}
+		
+			h1{
+			text-align: center; 
+			color: Black; 
+			font-family: impact, fantasy; 
+			border-style: groove; 
+			border-width: 5px; 
+			border-color: black;
+			border-bottom-style: dashed;
+			
+		}
+		#startKnop
+		{
+			text-align: center; 
+			color: red; 
+			font-size: 80px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left:30%; 
+			right: 30%; 
+			border: solid; 
+			border-radius: 10px; 
+			border-color: red;
+			border-width: 5px;
+			z-index: 1;
+		
+		}
+		#startKnop:hover
+		{
+			font-size: 105px; 
+			cursor: pointer; cursor: hand;
+		}
+	
+		#QuitButton 
+		{
+			text-align: center; 
+			color: red; 
+			font-size: 70px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left:40%; 
+			right: 40%; 
+			border: solid; 
+			border-radius: 15px; 
+			border-color: red;
+			border-width: 5px; 
+			visibility: hidden;
+			z-index: 0;
+		}
+	
+		#QuitButton:hover
+		{
+			font-size: 85px; 
+			cursor: pointer; cursor: hand;
+		}
+	
+		#CountDownTimer {
+			text-align: center; 
+			color: red; 
+			font-size: 75px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left: 2%; 
+			right: 75%; 
+			border-radius: 10px; 
+	
+		}
+	
+		#ScoreBord {
+			text-align: center; 
+			color: red; 
+			font-size: 75px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left: 75%; 
+			right: 2%; 
+			border-radius: 10px;
+		}
+	
+		#Uitleg 
+		{
+			text-align: center; 
+			color: red; 
+			font-size: 30px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left: 30%; 
+			right: 30%; 
+			top: 50%;
+			border-radius: 10px;
+			cursor: pointer; cursor: hand;
+			z-index: 1;
+		}
+	
+		#Winner
+		{
+			text-align: center; 
+			color: red; 
+			font-size: 40px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left: 30%; 
+			right: 30%; 
+			top: 50%;
+			border-radius: 10px;
+			cursor: pointer; cursor: hand;
+			visibility: hidden;
+			z-index: 1;
+		}
+	
+		#Loser
+		{
+			text-align: center; 
+			color: red; 
+			font-size: 40px; 
+			font-family: impact, fantasy;
+			background-color: black; 
+			padding: 10px; 
+			position: absolute; 
+			left: 30%; 
+			right: 30%; 
+			top: 50%;
+			border-radius: 10px;
+			cursor: pointer; cursor: hand;
+			visibility: hidden;
+			z-index: 1;
+		}
+	
+		#Speelveld 
+		{
+			top: 35%;
+			bottom: 3%;
+			left: 2%;
+			right: 2%;
+			border: solid;
+			border-radius: 10px;
+			background-color: #878787;
+			position: absolute;
+			z-4: 0;
+	
+		}
+	
+		#credits
+		{
+			position: absolute; 
+			top: 97%; 
+			right: 2%; 	
+		}
+	
+		#VoetbalLayout {
+			position: absolute;
+			hover: cursor: pointer; cursor: hand;
+			right: 93%;
+			left: 6%;
+		}
+	
+		#BasketbalLayout {
+			position: absolute;
+			hover: cursor: pointer; cursor: hand;
+			right: 90%;
+			left: 10%;
+		}
+	
+	
+		#BasicLayout {
+			width:30px;
+            height:30px;
+            border-radius:50px;
+			border: solid;
+            text-align:center;
+            background-color:red;
+			font-size:25px;
+            font-family:Impact,fantasy;	
+			position: absolute;
+			hover: cursor: pointer; cursor: hand;
+			left: 2%;
+			right: 96%;
+		}
+		
+		.VoetbalImage {
+			position: fixed;
+			visibility: hidden;
+		
+		}
+	
+		/*wouch easter egg*/
+		#wouch{
+			
+			border: solid;	
+			background-color:red;
+			position: absolute;
+			z-index:11;
+			border-radius:50%;
+			top:50%;
+			left:10%;
+			width:150px;
+			height:150px;	
+			visibility:hidden;
+		}
+		
+		#joerei{
+			
+			border: solid;	
+			background-color:red;
+			position: absolute;
+			z-index:11;
+			border-radius:50%;
+			top:50%;
+			left:10%;
+			width:150px;
+			height:150px;	
+			visibility:hidden;
+		}
+		
+		#bersh{
+			
+			border: solid;	
+			background-color:red;
+			position: absolute;
+			z-index:11;
+			border-radius:50%;
+			top:50%;
+			left:10%;
+			width:150px;
+			height:150px;	
+			visibility:hidden;
+		}
+		
+		#jenks{
+			
+			border: solid;	
+			background-color:red;
+			position: absolute;
+			z-index:11;
+			border-radius:50%;
+			top:30%;
+			left:10%;
+			width:500px;
+			height:500px;	
+			visibility:hidden;
+		}
+		
+		#eggid2{
+			border-radius:50%;
+			width:500px;
+			height:500px;
+		}
+		
+		#eggid{
+			border-radius:50%;
+			width:150px;
+			height:150px;
+		}
